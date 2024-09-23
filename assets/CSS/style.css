@@ -95,6 +95,9 @@ main {
     /*make main element take up any surplus space to push footer down  */
     flex: 1 0 auto;
     margin-top: 47px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
 }
 
 /* Hero section */
@@ -291,6 +294,16 @@ main {
     #photos {
         column-count: 3;  
     }
+
+    /* Sign-Up */
+    .signup {}
+    .signup-form{}
+    #first-name{}
+    #last-name {}
+    #email-address {}
+    .radio-buttons{}
+
+    .join-button{}
 
 }
 
